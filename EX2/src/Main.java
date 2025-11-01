@@ -2,6 +2,7 @@ public class Main {
     public static void main(String[] args) {
         int []arr = {1,2,2,3,3,3,4,5};
         int []arr1 = EX2(arr);
+        System.out.print("[");
         for(int i =0; i<arr1.length;i++)
             if(i!=arr1.length-1)
                 System.out.print(arr1[i]+",");
