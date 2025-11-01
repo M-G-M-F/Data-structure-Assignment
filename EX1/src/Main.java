@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        int []arr = {2,4,6,6,7,9};
+        int []arr = {2,4,6,7,9};
         int result = EX1(arr);
         System.out.println(result);
     }
