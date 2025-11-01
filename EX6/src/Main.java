@@ -10,13 +10,7 @@ public class Main {
         arr.add(1);
         ArrayList<Integer> result = EX6(arr,1);
 
-        System.out.print("[");
-        for(int i =0; i<result.size();i++)
-            if(i!=result.size()-1)
-                System.out.print(result.get(i)+",");
-            else
-                System.out.print(result.get(i));
-        System.out.print("]");
+        System.out.print(result);
     }
     public static ArrayList<Integer> EX6(ArrayList<Integer> list, int key) {
         ArrayList<Integer> result = new ArrayList<>();
